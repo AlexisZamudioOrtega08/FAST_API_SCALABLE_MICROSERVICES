@@ -88,7 +88,7 @@
             MYSQL_PORT=<port>
             MYSQL_DB=<database_name>
 
-### For installation, please create a python virtual environment and install requirements.txt.
+### For the API usage, please create a python virtual environment and install requirements.txt.
 
     pip install -r requirements.txt
 
