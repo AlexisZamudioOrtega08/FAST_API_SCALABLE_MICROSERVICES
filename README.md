@@ -3,7 +3,7 @@
 ## This is a sample of API microservice comsumption.
 
 ### The API (Employees) support the following operations:
-    READ: Return a json with employees details.
+    READ: Return a json with a single employee or employees details.
     CREATE: Create a new employee.
 
 ### GET an employee by id:
