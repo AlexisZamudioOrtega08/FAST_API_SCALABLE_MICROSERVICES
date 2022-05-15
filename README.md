@@ -95,10 +95,12 @@
 ### Once installated and activated, run 2 simultaneous terminal and execute below.
     On terminal 1:
        Go to src/employee_api and run:
+           export API_PREFIX=/api/v1/
            uvicorn main:app --reload --port 8001
     
     On terminal 2:
         Go to src/timesheet_api and run:
+            export API_PREFIX=/api/v1/
             uvicorn main:app --reload --port 8000
 
 #### If the step before was completed successfully, you must have running the server on your local host.
