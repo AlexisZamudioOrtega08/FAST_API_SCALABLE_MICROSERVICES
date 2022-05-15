@@ -2,3 +2,5 @@ venv
 .env
 __pycache__
 .DS_Store
+db.sqlite
+src/employee_api/db.sqlite
